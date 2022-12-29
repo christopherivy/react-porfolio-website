@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={flare} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <img src={flare} className="App-flare" alt="flare" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
