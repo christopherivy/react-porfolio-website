@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 <!--
-38:56 IN THE VIDEO https://www.youtube.com/watch?v=JSJ8ftr92Vw&t=120s
+1:25:33 IN THE VIDEO https://www.youtube.com/watch?v=JSJ8ftr92Vw&t=120s
 GOOGLE DOCS: https://docs.google.com/spreadsheets/d/1ERwhmKCXW9ExAxzzmW8i8DKYGyKIeKgcisGkhCJRA44/edit#gid=0
 WATCH FOR TAILWIND: npx tailwindcss -i ./src/index.css -o ./public/output.css --watch
 MY GITHUB: https://github.com/christopherivy/react-porfolio-website
