@@ -2,6 +2,16 @@
 
 https://docs.google.com/spreadsheets/d/1ERwhmKCXW9ExAxzzmW8i8DKYGyKIeKgcisGkhCJRA44/edit#gid=0
 
+<!--
+
+38:56 IN THE VIDEO https://www.youtube.com/watch?v=JSJ8ftr92Vw&t=120s
+WATCH FOR TAILWIND: npx tailwindcss -i ./src/index.css -o ./public/output.css --watch
+MY GITHUB: https://github.com/christopherivy/react-porfolio-website
+VID GITHUB: https://github.com/ed-roh/react-portfolio
+TAILWIND DOCS: https://tailwindcss.com/docs/installation
+
+-->
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

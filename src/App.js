@@ -1,19 +1,15 @@
-// import logo from "./logo.svg";
-import flare from "./flare.png";
-import "./App.css";
+import { useState } from "react";
+import useMediaQuery from "./hooks/useMediaQuery";
+import Navbar from "./scenes/Navbar";
 
 function App() {
+  const [selectedPage, setSelectedPage] = useState("home");
+  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
+
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <img src={flare} className="App-flare" alt="flare" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
+      <header className="app bg-deep-blue">
+        <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
       </header>
     </div>
   );
