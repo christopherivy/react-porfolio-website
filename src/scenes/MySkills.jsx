@@ -23,7 +23,7 @@ const MySkills = () => {
             MY <span className="text-red">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7">C# | .Net | .Net Core | ASP.Net | JavaScript | React | HTML5 | CSS3 | Bootstrap | Yarn | JSON VSCode | WTForms | Ajax | Axios | RESTful APIs | Postman Git | Github | Agile/Scrum Veteran | Secret Clearance</p>
+          <p className="mt-10 mb-7">Software Engineer | C#/.NET | React | SQL | JavaScript | Node.js | Veteran | Secret Clearance</p>
         </motion.div>
 
         <div className="mt-16 md:mt-0">
@@ -62,14 +62,15 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            I am a full stack software engineer and veteran with a secret security clearance, skilled in front-end and back-end technologies like JavaScript, React, HTML5, and CSS3, as well as back-end technologies like C#, .NET, and SQL. I have
-            experience using tools like Ajax and Git, and am proficient in agile methodologies like Scrum.
+            {" "}
+            I am a full stack Software Engineer and Veteran, skilled in full-stack technologies including JavaScript, React, HTML5, CSS3, C#, .NET, and SQL. I have experience with tools like Ajax and Git and am proficient in agile methodologies such
+            as Scrum.
           </p>
         </motion.div>
 
         {/* INNOVATIVE */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3 mt-10 mb-10"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -87,8 +88,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            As a developer, I am driven to create new ideas and solutions, staying up-to-date on emerging technologies. I love collaboration and working with diverse teams to achieve a common goal. My passion for learning drives me to make a positive
-            impact through my work.
+            As a developer, I am motivated to create new ideas and solutions using emerging technologies. I enjoy collaborating with diverse teams to achieve common goals and am passionate about learning and making a positive impact through my work.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -111,11 +111,11 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            I am a developer with a strong imagination and a desire to create unique and impactful solutions. I am always seeking out new ways to think outside the box and find creative approaches to problem-solving. I am collaborative and enjoy
-            bringing ideas to life with others. My passion for imagination drives me to excel as a developer.
+            I am a developer with a creative mind and desire to create impactful solutions. I enjoy thinking creatively and finding unique approaches to problem-solving. I am collaborative and passionate about bringing ideas to life with others.
           </p>
         </motion.div>
       </div>
+      <LineGradient />
     </section>
   );
 };
