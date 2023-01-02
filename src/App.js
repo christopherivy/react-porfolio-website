@@ -1,8 +1,10 @@
-import { useState, useEffect } from "react";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
-import useMediaQuery from "./hooks/useMediaQuery";
 import Navbar from "./scenes/Navbar";
+import LineGradient from "./components/LineGradient";
+import MySkills from "./scenes/MySkills";
+import { useState, useEffect } from "react";
+import useMediaQuery from "./hooks/useMediaQuery";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
@@ -27,6 +29,10 @@ function App() {
           <div className="w-5/6 mx-auto md:h-full">
             {isAboveMediumScreens && <DotGroup selectedPage={selectedPage} setSelectedPage={setSelectedPage} />}
             <Landing setSelectedPage={setSelectedPage} />
+            <LineGradient />
+            <div className="w-5/6 mx-auto md:h-full">
+              <MySkills />
+            </div>
           </div>
         </header>
       </div>

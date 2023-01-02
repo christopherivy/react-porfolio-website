@@ -2,14 +2,15 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import SocialMediaIcons from "../components/SocialMediaIcons";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+// import MyImage from "../assets/profile-imgage-chris"; // my own image to add here
 
 const Landing = ({ setSelectedPage }) => {
-  const isAboveLarge = useMediaQuery("(min-width: 1060px)");
+  const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   return (
     <section id="home" className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10">
       {/* IMAGE SECTION */}
       <div className="basis-3/5 z-10 mt-16 md:mt-32 flex justify-center md:order-2">
-        {isAboveLarge ? (
+        {isAboveMediumScreens ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px]
             before:w-full before:max-w-[400px] md:before:max-w-[600px] before:h-full before:border-2 before:border-blue before:z-[-1]"
@@ -44,7 +45,8 @@ const Landing = ({ setSelectedPage }) => {
             </span>
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eaque, cupiditate assumenda distinctio hic maxime labore, neque officiis dolore, id et consectetur nobis accusamus veritatis atque nisi laudantium aliquam sapiente.
+            Welcome to my portfolio! My name is Chris and I am a Software Engineer with a passion for creativity, music and technology. On this page, you will find a selection of my past work and projects that showcase my skills and capabilities.
+            Thank you for visiting! I am interested in web development, gaming, music, the outdoors, cooking, and enjoying life. My diverse interests make me well-rounded and able to approach tasks from multiple perspectives.
           </p>
         </motion.div>
 
@@ -68,14 +70,9 @@ const Landing = ({ setSelectedPage }) => {
           >
             Contact Me
           </AnchorLink>
-          <AnchorLink className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5" onClick={() => setSelectedPage("contact")} href="#contact">
-            <div
-              className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center
-               justify-center font-playfair px-10"
-            >
-              Let's talk.
-            </div>
-          </AnchorLink>
+          <a download="" href="../assets/Chris_cv.pdf" className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5">
+            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">Resume</div>
+          </a>
         </motion.div>
 
         <motion.div
