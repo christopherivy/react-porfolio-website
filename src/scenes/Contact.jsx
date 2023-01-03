@@ -35,7 +35,6 @@ const Contact = () => {
           hidden: { opacity: 0, x: 50 },
           visible: { opacity: 1, x: 0 },
         }}
-        className="flex justify-end w-full"
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">

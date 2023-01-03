@@ -10,6 +10,8 @@ TAILWIND DOCS: https://tailwindcss.com/docs/installation
 
 host here: https://vercel.com/
 
+**NEED TO ADJUST THE GRADIENT LINE ON ALL PAGES - ADD LINEGRADIENT TO COMPONENT INSTEAD OF APPS PAGE**
+
 -->
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
