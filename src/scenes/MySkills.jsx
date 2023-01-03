@@ -115,7 +115,6 @@ const MySkills = () => {
           </p>
         </motion.div>
       </div>
-      <LineGradient />
     </section>
   );
 };

@@ -72,7 +72,7 @@ const Landing = ({ setSelectedPage }) => {
             Contact Me
           </AnchorLink>
           <a download="" href="../assets/Chris_cv.pdf" className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5">
-            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">Resume</div>
+            <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">Download CV</div>
           </a>
         </motion.div>
 
